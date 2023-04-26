@@ -1,0 +1,11 @@
+prefix=/root/github/bolt/third_party/android-aarch64/jsoncpp
+exec_prefix=/root/github/bolt/third_party/android-aarch64/jsoncpp
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: jsoncpp
+Description: A C++ library for interacting with JSON
+Version: 
+URL: https://github.com/open-source-parsers/jsoncpp
+Libs: -L${libdir} -ljsoncpp
+Cflags: -I${includedir}
